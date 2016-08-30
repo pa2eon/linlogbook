@@ -1815,7 +1815,7 @@ void LinLogBook::aboutQT()
 
 void LinLogBook::aboutLinLogBook()
 {
-  QMessageBox::about(this, QString(tr("About QLinLogBook")), QString(tr("<h3>About LinLogBook</h3><p><a href=\"http://linlogbook.sf.net/\">LinLogBook</a> is a highly user configurable LoogBook program for Linux and Mac OSX by Volker Schroer, DL1KSV. It is developed  under GPL( Read the file COPYING contained in the distribution for more information)</p><p>LinLogBook uses <a href=\"http://www.sqlite.org/\">sqlite </a> as sql  database to store the data.</p>")));
+  QMessageBox::about(this, QString(tr("About QLinLogBook")), QString(tr("<h3>About LinLogBook</h3><p><a href=\"http://linlogbook.sf.net/\">LinLogBook</a> is a highly user configurable LoogBook program for Linux and Mac OSX by Volker Schroer, DL1KSV. It is developed  under GPL( Read the file COPYING contained in the distribution for more information)</p><p>Added MySQL database by PA2EON</p><p>LinLogBook uses <a href=\"http://www.sqlite.org/\">sqlite </a> as sql  database to store the data.</p>")));
 }
 
 void LinLogBook::aboutCtydat()
